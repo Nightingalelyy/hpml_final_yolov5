@@ -18,7 +18,7 @@ cd yolov5
 pip install -qr requirements.txt
 ```
 
-To start with our trained model weight, run the following command:
+To start with our trained model weight, run the following command under the direction /yolov5:
 
 ```
 python detect.py --data data/mycoco.yaml --weight model_enhanced.pt --conf 0.25 --source data/videos/test_night_3.mp4
