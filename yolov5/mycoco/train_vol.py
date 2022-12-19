@@ -4,7 +4,7 @@ import os
 import shutil
 from os import listdir, getcwd
 from os.path import join
-sets = ['train', 'trainval']
+sets = ['train']
 classes = ['person','car']
 def convert(size, box):
     dw = 1. / size[0]

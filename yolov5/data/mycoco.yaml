@@ -1,6 +1,6 @@
 #train and val address
-train: ../mycoco/images/train
-val: ../mycoco/images/val
+train: ../mycoco/images/train/
+val: ../mycoco/images/val/
 
 
 #num of classes
