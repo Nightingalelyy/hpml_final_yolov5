@@ -10,7 +10,6 @@ list = range(num)
 tv = int(num * trainval_percent)
 tr = int(tv * train_percent)
 trainval = random.sample(list, tv) 
-#从所有list中返回tv个数量的项目
 train = random.sample(trainval, tr)
 if not os.path.exists('ImageSets/'):
     os.makedirs('ImageSets/')

@@ -4,7 +4,7 @@ import os
 import shutil
 from os import listdir, getcwd
 from os.path import join
-sets = ['train']
+sets = ['train','trainval']
 classes = ['person','car']
 def convert(size, box):
     dw = 1. / size[0]
@@ -58,12 +58,12 @@ def copy_file(new_path,path_txt,search_path):#参数1：存放新文件的位置
         os.makedirs(new_path)
     with open(path_txt, 'r') as lines:
         filenames_to_copy = set(line.rstrip() for line in lines)
-        # print('filenames_to_copy:',filenames_to_copy)
-        # print(len(filenames_to_copy))
+        print('filenames_to_copy:',filenames_to_copy)
+        print(len(filenames_to_copy))
     for root, _, filenames in os.walk(search_path):
-        # print('root',root)
-        # print(_)
-        # print(filenames)
+        print('root',root)
+        print(_)
+        print(filenames)
         for filename in filenames:
             if filename in filenames_to_copy:
                 shutil.copy(os.path.join(root, filename), new_path)
