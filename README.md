@@ -3,9 +3,9 @@
 
 Created by 
 
-Yuyang Liu --yl8019@nyu.edu
+Yuyang Liu yl8019@nyu.edu
 
-Jiaxin Wang --jw7420@nyu.edu
+Jiaxin Wang jw7420@nyu.edu
 
 
 This project mainly resolve the problem of using yolo model to track the person and vehicles in the video. Our goal is to scale the accuracy when the video is in the poor light condition.
