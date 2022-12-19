@@ -18,6 +18,9 @@ cd yolov5
 pip install -qr requirements.txt
 ```
 
+Our retrained model direction: /yolov5/model_enhanced.pt
+
+
 To start with our trained model weight, run the following command under the direction /yolov5:
 
 ```
