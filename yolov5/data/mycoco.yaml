@@ -1,0 +1,10 @@
+#train and val address
+train: ../mycoco/images/train
+val: ../mycoco/images/val
+
+
+#num of classes
+num_class: 7
+
+#class names
+names: ['car','person']
